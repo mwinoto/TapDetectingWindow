@@ -19,7 +19,7 @@
     
 }
 
-@property (nonatomic, retain) NSMutableSet * observers;
+@property (nonatomic, strong) NSMutableSet * observers;
 
 -(void) addTouchObserver:(id<TapDetectingWindowDelegate>)observer;
 -(void) removeTouchObserver:(id<TapDetectingWindowDelegate>)observer;

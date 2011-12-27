@@ -38,11 +38,6 @@
     return self;
 }
 
-- (void)dealloc 
-{
-    [_observers release];
-    [super dealloc];
-}
 
 /*
 - (void)forwardTap:(id)touch 
